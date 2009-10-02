@@ -1,0 +1,35 @@
+\documentclass[a4paper, 12pt]{article}
+
+%better bibliography style control
+\usepackage{natbib}
+
+%utf-8, because it is the default in linux these days
+\usepackage[utf8]{inputenc}
+
+%\usepackage{graphicx}
+\usepackage[pdftex]{color,graphicx}
+\usepackage{html}
+
+%make the url links blue
+\hypersetup{
+    pdfauthor={Eduardo Bellani},
+    pdftitle={A personal description of HTDP},
+    pdfkeywords={education, programming, design, learning},
+    colorlinks,
+    urlcolor= blue
+}
+
+
+\title{??}
+
+\author{Eduardo Bellani}
+
+\begin{document} 
+    \maketitle
+%    \input{abstract}
+    \input{introduction}
+    \input{conclusion}
+
+    \bibliographystyle{plainnat}
+    \bibliography{education_references}
+\end{document}
